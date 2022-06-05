@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Wow weather",
+    "slug": "whether-app-react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/sunny.png",
+    "splash": {
+      "image": "./assets/sunny.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/sunny.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.example.app123.c"
+    },
+    "web": {
+      "favicon": "./assets/sunny.png"
+    }
+  }
+}
